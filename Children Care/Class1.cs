@@ -22,6 +22,14 @@ namespace Children_Care
         public BoundingBox boundingBox { get; set; }
     }
 
+    public class classcification
+    {
+        public double probability { get; set; }
+        public string tagId { get; set; }
+        public string tagName { get; set; }
+
+    }
+
     public class MyPredictionModel
     {
         public string id { get; set; }
